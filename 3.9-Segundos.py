@@ -1,0 +1,6 @@
+dias = int(input("Quantidades de dias:"))
+horas = int(input("Quantidades de horas:"))
+minutos = int(input("Quantidades de minutos:"))
+segundos = int(input("Quantidades de segundos:"))
+segundos = segundos+(minutos*60)+(horas*3600)+(dias*86400)
+print("Quantidade de segundos:%d" % segundos)
